@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <titlle>Formulário de Cadastro</titlle>
+</head>
+
+<body>
+    <form name="formCadastro">
+        <fieldset>
+            <h2 align="center">Formulário de Cadastro</h2>
+            <legend>|Identificação|</legend>
+    </form>
+    <label for="txtNome">Nome:</label><input name="txtNome" maxlegenth="50" size="50" />
+    <p><label for="txtRG">RG:</label><input name="txtRG" maxlength="15" size="15" />
+        <label for="txtCPF">CPF:</label><input name="txtCPF" maxlength="20" size="20" />
+    </p>
+    </fieldset>
+    <fieldset>
+        <legend>|Endereço|</legend>
+        <label for="txtEndereco">Endereço:</label>
+        <input name="txtEndereco" maxlength="50" size="50" />
+        <input name="txtNumero" maxlength="8" size="8" />
+        <p><label for="txtBairro">Bairro:</label><input name="txtBairro" maxlength="40" size="40" </p>
+        <p><label for="txtCidade">Cidade:</label><input name="txtCidade" maxlength="40" size="40" </p>
+        <p><label for="cmbEstado">Estado:</label>
+            <select name="cmbEstado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AM">Amazonas</option>
+                <option value="AP">Amapá</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="Df">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="Mt">Mato Grosso</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="PR">Paraná</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RO">Rondonia</option>
+                <option value="RR">Roraima</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SE">Sergipe</option>
+                <option value="SP">São Paulo</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </p>
+        <p><label for="txtTelefone">Telefone:</label><input name="txtTelefone" maxlangth="20" size="20" </p>
+
+    </fieldset>
+    <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="rbSexo" value="M" />Masculino
+        <input type="radio" name="rbSexo" value="F" />Feminino
+    </fieldset>
+    <fieldset>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+    </fieldset>
+</body>
+</body>
+</head>
+
+</html>
